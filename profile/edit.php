@@ -28,7 +28,7 @@ if(isset($_POST['update'])){
     } elseif ($senhaBD === $senhaAtualDigitada2){
         $sqlUpdate = "UPDATE usuarios SET nome='$nome', sobrenome='$sobrenome' WHERE email = '$email'";
         $result = $conexao->query($sqlUpdate);
-        header('Location: ../home/home.php');
+        header('Location: ../index.php');
     }
     
 } elseif (isset($_POST['delete'])) {

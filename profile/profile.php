@@ -29,7 +29,7 @@ while ($user_data = mysqli_fetch_assoc($result)) {
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles.css">
 
-    <title>Meu perfil</title>
+    <title>AlbumHub | Editar Perfil</title>
 </head>
 
 <body class="bg-body-tertiary">
@@ -39,7 +39,7 @@ while ($user_data = mysqli_fetch_assoc($result)) {
     <main>
         <div class="container p-5">
             <div class="d-flex flex-direction-row">
-                <h2 class="d-flex fw-bold fs-1">Editar perfil</h2>
+                <h2 class="d-flex fw-bold fs-1">Editar Perfil</h2>
 
                 <div class="container col-md-8 ms-auto me-3">
                     <form class="container row align-items-center" action="edit.php" method="POST">
