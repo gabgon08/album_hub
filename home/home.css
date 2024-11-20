@@ -1,0 +1,36 @@
+.album-list {
+    margin-top: 20px;
+}
+
+.album {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.album img {
+    width: 100%;
+    border-radius: 5%;
+    margin-bottom: 2vh;
+    box-shadow: 0px 1px 15px 10px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
+}
+
+.search-results, .album-card {
+    display: grid;
+    gap: 3%;
+    grid-template-columns: repeat(auto-fit, minmax(40vh, 1fr));
+    margin: 3%;
+}
+
+.album-card h5, p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 50vh;
+}
+
+.save-btn {
+    margin-top: auto;
+}

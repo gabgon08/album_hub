@@ -1,0 +1,16 @@
+.search-results{
+    display: block;
+    grid-template-columns: repeat(auto-fit, minmax(40vh, 1fr));
+    margin: 3%;
+    gap: 3%;
+}
+
+.accordion {
+    --bs-accordion-active-bg: #ffc107;
+    --bs-accordion-active-color: #000000;
+    --bs-accordion-border-color: disabled;
+    --bs-accordion-inner-border-radius: 15px;
+    --bs-accordion-border-radius: 15px;
+    --bs-accordion-btn-focus-box-shadow: disabled;
+
+  }

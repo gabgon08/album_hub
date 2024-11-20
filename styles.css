@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto+Slab:wght@100..900&family=Teko:wght@300..700&display=swap');
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+}
+
+.dropdown-item:hover{
+    background-color: #ffc107;
+    color: black;
+}
+
+.form-floating{
+    margin:10px;
+}
+
+
+.form-field{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.form-control2{
+    margin-bottom: 30px;
+}
