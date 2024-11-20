@@ -38,7 +38,7 @@
             <div
                 class="container d-flex align-content-center justify-content-center text-center order-2 col-md-5 p-0 flex-wrap">
                 <form class="d-flex align-content-center justify-content-center flex-column flex-wrap needs-validation"
-                    action="testlogin.php" method="POST" novalidate>
+                    action="../login/testlogin.php" method="POST" novalidate>
 
                     <!--TÍTULO-->
                     <p class="mb-0 mt-5 p-0 fw-bold fs-2">Login</p>
