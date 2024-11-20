@@ -45,7 +45,7 @@ if (isset($_POST["submit"])) {
                     </svg>
                 </div>
 
-                <h1 class="text-dark p-2 fw-bold">Album Hub</h1>
+                <h1 class="text-dark p-2 fw-bold">AlbumHub</h1>
 
             </div>
             <div class="container order-2 col-md-5 mb-0 p-0">

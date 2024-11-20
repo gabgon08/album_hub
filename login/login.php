@@ -32,7 +32,7 @@
                     </svg>
                 </div>
 
-                <h1 class="text-dark p-2 fw-bold">Album Hub</h1>
+                <h1 class="text-dark p-2 fw-bold">AlbumHub</h1>
 
             </div>
             <div
