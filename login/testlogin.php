@@ -16,7 +16,7 @@ if (isset($_POST['submit']) && !empty($_POST['email']) && !empty($_POST['passwor
     if(mysqli_num_rows($result) < 1){
         unset($_SESSION['email']);
         unset($_SESSION['senha']);
-        header('Location: index.php');
+        header('Location: ../index.php');
     }
 
     else{
@@ -27,6 +27,6 @@ if (isset($_POST['submit']) && !empty($_POST['email']) && !empty($_POST['passwor
     }
 
 else{
-    header('Location: index.php');
+    header('Location: ../index.php');
 }
 ?>
