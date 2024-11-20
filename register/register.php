@@ -144,18 +144,12 @@ if (isset($_POST["submit"])) {
                                 <!--BOTÃO CANCELAR-->
                                 <div class="d-flex mt-4 justify-content-start">
                                     <button type="button" class="btn btn-outline-secondary"
-                                        onclick="window.location.href='../login/login.php'">Cancelar</button>
+                                        onclick="window.location.href='../login/index.php'">Cancelar</button>
                                 </div>
 
 
                             </div>
-                            <!--
-                            <div class="d-flex align-content-center justify-content-center">
-                                <button type="submit" name="submit" class="btn btn-warning">Cadastrar</button>
-                                <button type="button" class="btn btn-outline-secondary"
-                                    onclick="window.location.href='../login/login.php'">Cancelar</button>
-                            </div>
-                        -->
+
                         </div>
                         <!--BOTÕES-->
 

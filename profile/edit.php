@@ -41,7 +41,7 @@ if(isset($_POST['update'])){
     $sqlDeleteSavedAlbums = "DELETE FROM albuns_salvos WHERE email='$email'";
     $result = $conexao->query($sqlDeleteSavedAlbums);
 
-    header('Location: ../login/login.php');
+    header('Location: ../login/index.php');
 }
 
 ?>

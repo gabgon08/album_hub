@@ -5,7 +5,7 @@
 
     if(!isset($_SESSION['email']) && !isset($_SESSION['senha'])){
 
-        header('Location: ../login/login.php');
+        header('Location: ../login/index.php');
 
 }
 
